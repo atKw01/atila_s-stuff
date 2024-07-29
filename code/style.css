@@ -1,0 +1,115 @@
+#body {
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: auto;
+
+}    
+
+#head {
+    display: block;
+    background-color: #fc671c;
+    text-align: center;
+    width: auto;
+    height: 140px;
+    box-sizing: border-box;
+}
+
+#logoImg {
+    padding-left: 40px;
+    padding-top: 20px;
+    margin-bottom: -50px;
+    margin-right: 50px;
+    width: 150px;
+    height: 150px;
+    image-resolution: 150%;
+    float: left;
+    color: #35145a;
+}
+
+#header {
+    display: block;
+    text-align: center;
+    background-color: #fc671c;
+    width: auto;
+    height: 100px;
+    box-sizing: border-box;
+}
+
+#header h1 {
+    font-family: Verdana;
+    color: #35145a;
+    padding-top: 43px;
+    padding-left: 150px;
+    float: left;
+}
+
+#searchBox {
+    width: 450px;
+    height: 30px;
+    float: right;
+    position: sticky;
+    margin-top: 70px;
+    margin-right: 100px;
+    z-index: 1;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 100px;
+    border-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#nav {
+    display: block;
+    text-align: center;
+    background-color: #1c023d;
+    width: auto;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+#navBttns {
+    text-align: center;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10px;
+    padding-right: 0%;
+}
+
+#navBttns a:hover{
+    background-color: #b43d02;
+    color:#1a0031
+}
+
+.text {
+    user-select: none;
+}
+
+.actionBttns {
+    text-decoration: none;
+    color: antiquewhite;
+    padding-top: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 12px;
+    text-align: center;
+    line-height: 10px;
+    box-sizing: content-box;
+    position: static;
+    user-select: none;
+    z-index: auto;
+}
+
+#rightSideBar {
+    display: block;
+    background-color: antiquewhite;
+    width: 15%;
+    height: 1000px;
+    box-sizing: border-box;
+    float: right;
+    padding: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    overflow-wrap: break-word;
+}
